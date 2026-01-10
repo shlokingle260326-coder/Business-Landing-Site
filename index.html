@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Studios-Business Landing page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+
+
+    <!-- BootStrap icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <!-- BootStrap Connection -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- CSS Connection -->
+      <link href = "stlye.css" rel = "stylesheet">
+</head>
+<body>
+    <!-- =======================NavBar======================= -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top p-2">
+    <div class="container">
+        <!-- Nav-Title -->
+         
+        <a class="navbar-brand fs-2 brand-font" href="#">
+            <i class="bi bi-code-slash icon"></i>
+            Web-Studios
+        </a>
+
+        <!-- Mobile toggle -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+
+            <!-- NAV LINKS -->
+            <ul class="navbar-nav ms-auto me-3">
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- SEARCH FORM -->
+            <form class="d-flex align-items-center" role="search">
+                <input
+                    class="form-control form-control-sm me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search">
+                <button class="btn btn-outline-light btn-sm" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+
+        </div>
+    </div>
+</nav>
+
+
+     <!-- ======================= Hero Section ======================= -->
+    <section class="hero text-center text-light">
+        <div class="container vh-100 align-content-center">
+            
+            <h1 class="display-4 text-dark animate-pop">Grow Your Business with Web-Studios</h1>
+            
+            <p class="lead text-secondary animate-fade">We help startups build modern and responsive websites.</p>
+            
+            <a href="#contact" class="btn custom-btn btn-lg animate-slide">Get Started</a>
+        
+        </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="py-5 custom-bg2">
+        <div class="container text-center">
+            <h2 class="mb-4">Our Services</h2>
+            
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h4>Web Design</h4>
+                        <p>Modern and clean UI designs for your business.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h4>Frontend Development</h4>
+                        <p>Responsive websites using HTML, CSS & JavaScript.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h4>SEO Optimization</h4>
+                        <p>Improve your website visibility on search engines.</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PRICING ================= -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Pricing Plans</h2>
+            
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <h4>Basic</h4>
+                        <h2>₹1999</h2>
+                        <p>Single page website</p>
+                        <button class="btn btn-outline-info custom-1">Choose</button>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <h4>Standard</h4>
+                        <h2>₹4999</h2>
+                        <p>Multi-page website</p>
+                        <button class="btn btn-outline-info custom-1">Choose</button>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <h4>Premium</h4>
+                        <h2>₹9999</h2>
+                        <p>Full business website</p>
+                        <button class="btn btn-outline-info custom-1">Choose</button>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section id="testimonials" class="py-5 custom-bg">
+        <div class="container text-center">
+            
+            <h2 class="mb-4">What Clients Say</h2>
+            
+            <div class="row mt-5">
+                
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        "Amazing design and fast delivery!"
+                        <footer class="blockquote-footer mt-1">Startup Founder</footer>
+                    </blockquote>
+                </div>
+                
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        "Very professional and responsive."
+                        <footer class="blockquote-footer mt-1">Business Owner</footer>
+                    </blockquote>
+                </div>
+            
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- ================= CONTACT FORM ================= -->
+    <section id="contact" class="py-5 text-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+                
+                <form id="contactForm" class="col-md-6 mx-auto">
+                    
+                    <!-- Your Name -->
+                    <div class="form-floating mb-3">
+                        <input type="name" class="form-control mb-3" id="floatingname" placeholder="nameyour">
+                        <label for="floatingname" class = "text-secondary">Your Name</label>
+                    </div>
+                    
+                    <!-- Your Email -->
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control mb-3" id="floatingemail" placeholder="name@example.com">
+                        <label for="floatingemail" class = "text-secondary">Your Email</label>
+                    </div>
+                    
+                    <!-- Description -->
+                    <div class="form-floating mb-3">
+                    <textarea class="form-control mb-3" id="floatingmessage" placeholder="Message"></textarea>
+                    <label for="floatingmessage" class = "text-secondary">Description</label>
+                    </div>
+                    
+                    <!-- Send Message -->
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    
+                    <!-- Successful Message -->
+                    <p id="formMsg" class="text-center mt-3"></p>
+                
+                </form>
+        
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Connection -->
+    <script src = "script.js"></script>
+
+</body>
+</html>

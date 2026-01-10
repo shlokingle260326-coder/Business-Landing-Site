@@ -1,0 +1,119 @@
+.brand-font {
+    font-family: 'Raleway', sans-serif;
+}
+
+.icon{
+    font-size: 30px;
+    color :#ffaa00; 
+}
+
+nav{
+    background-color: #000814;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #ffaa00, #ffea00);
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    transition: transform 0.3s;
+    background-color: #003566;
+    color:white;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+#contact{
+    background-color: #000814;
+}
+
+.custom-btn {
+    background-color: #00509d;   /* purple */
+    border-color: #00509d;
+    color: white;
+}
+
+.custom-btn:hover {
+    background-color: #001d3d;
+    border-color: #001d3d;
+    font-size: 22px;
+}
+
+.custom-bg{
+    background-color: #D0DAE3;
+}
+
+.custom-bg2{
+    background-color:#F2E9C8;
+}
+
+.custom-1{
+    background-color: #ffc300;
+    color :#001d3d;
+    border-color:  #003566;;
+}
+
+.custom-1:hover{
+    color : black;
+    background-color: #cca000;
+    border-color: #cca000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* ---------- Animations ---------- */
+.animate-pop {
+    animation: popUp 1s ease forwards;
+}
+
+.animate-fade {
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.animate-slide {
+    animation: slideUp 1.8s ease forwards;
+}
+
+/* Keyframes */
+@keyframes popUp {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
